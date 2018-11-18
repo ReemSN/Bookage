@@ -1,0 +1,185 @@
+body{
+    direction: ltr;
+}
+.bg-light {
+    background-color: rgb(0,0,0,0)!important; 
+}
+.nav-link:focus, .nav-link:hover{
+    text-decoration: underline;
+}
+.mainSection{
+    height: 900px;
+    width: 100%;
+    background: url("../img/banner.jpg") no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.container{
+	max-width: 1140px;
+    height: 100%;
+}
+.row{
+    height: 100%;
+}
+.navbar-light .navbar-nav .nav-link{
+    color: #333333;
+    font-size: 24px;
+    font-weight: bold;
+}
+h1{
+    color: #ffff;
+    font-size: 60px;
+}
+.buttons a{
+   display: inline-block;
+   width: 215px;
+   height: 60px;
+   line-height: 60px;
+   text-align: center;
+
+}
+.buttons a:hover{
+    text-decoration: none;
+}
+.fbtn{
+    background: #00afec;
+    color: #ffff;
+    margin-top: 75px;
+    margin-right: 50px;
+}
+.fbtn:hover{
+    color: #00afec;
+	background: #ffff;
+}
+.sbtn{
+    background:#ffff ;
+    color: #00afec ;
+    margin-top: 75px;
+    margin-right: 50px; 
+}
+.sbtn:hover{
+    color: #ffff;
+	background: #0097cb;
+}
+.bookSection{
+    padding-top: 20px;
+}
+.bookSection img{
+    max-width: 80%;
+}
+.papersSection{
+    background: #f5f5f5;
+    height: auto   /*880px*/;
+    padding: 140px 0px;
+}
+.papersSection h2{
+    text-align: center;
+    font-size: 36px;
+    padding-bottom: 90px;
+}
+.paper{
+    background: #fff;
+    border: 1px solid #e0e0e0;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+.paper p{
+    text-align: justify;
+}
+.paper .btn-primary{
+    margin-top: 40px;
+}
+.paper .borderd{
+    border-bottom: 1px solid #e0e0e0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.testmonialSection{
+    height: 425px;
+    background: url("../img/bg_testimonial.jpg");
+    background-size: cover;
+}
+.testmonialSection h2{
+    color: #ffff;
+    font-size: 36px;
+    font-weight: normal;
+}
+.writerSection{
+    padding: 150px 0 150px;
+	background-image: url('../img/bg_writer.jpg');
+	background-position: bottom center;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.writerSection img{
+    width: 100%;
+}
+.writerSection .social a{
+    display: inline-block;
+    color: black;
+    font-size: 20px;
+    margin-right: 15px;
+}
+.devices{
+    background: #00afec;
+    padding-top: 30px;
+    color: #ffff;
+}
+.devices img{
+    width: 70%;
+}
+.footer{
+    color: #ffff;
+    background: black;
+    padding: 15px;
+    font-size: 18px;
+}
+.footer h5{
+    margin-bottom: 20px;
+}
+.footer .fbtn{
+    margin-top: 0px;
+    margin-right: 0px;
+}
+.buttons span{
+    display: block;
+    margin-top: 15px;
+    font-size: 14px
+}
+.form{
+     font-size: 18px;
+    position: relative;
+}
+.form .submit{
+    position: absolute;  
+    right: 0px;
+    top: 0px;
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 979px) { 
+    
+}
+@media(max-width:480px){
+    .bookSection{
+        text-align: center;
+    }
+    .writerSection{
+  		padding: 80px 0px 0px;
+  		background-image: none;
+	}
+    .navbar-brand img{
+        max-width: 60%
+    }
+    .footer{
+        text-align: center;
+    }
+    .buttons span{
+    margin-bottom: 20px;
+    }
+  
+}
